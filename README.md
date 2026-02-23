@@ -145,10 +145,20 @@ Lower values indicate better alignment.
 ------------------------------------------------------------------------
 
 ## 9. Project Structure
-
-PDF-GAN/ │ ├── data/ ├── plots/ ├── src/ │ └── main.ipynb ├── README.md
-└── requirements.txt
-
+``` mermaid
+flowchart TD
+    A[PDF-GAN] --> B[data]
+    A --> C[plots]
+    A --> D[src]
+    A --> E[README.md]
+    A --> F[requirements.txt]
+    D --> G[main.ipynb]
+    C --> H[distribution_z.png]
+    C --> I[Gan_estimated.png]
+    C --> J[cdf_comparison.png]
+    C --> K[quantile_plot.png]
+    C --> L[density_difference.png]
+```
 ------------------------------------------------------------------------
 
 ## Conclusion
