@@ -145,19 +145,8 @@ Lower values indicate better alignment.
 ------------------------------------------------------------------------
 
 ## 9. Project Structure
-PDF-GAN
- ├── data
- │    └── data.csv
- ├── plots
- │    ├── distribution_z.png
- │    ├── Gan_estimated.png
- │    ├── cdf_comparison.png
- │    ├── quantile_plot.png
- │    └── density_difference.png
- ├── src
- │    └── main.ipynb
- ├── README.md
- └── requirements.txt
+<img width="832" height="410" alt="image" src="https://github.com/user-attachments/assets/b1fdb5c4-e752-4e9a-ae04-ccdd01c0aac3" />
+
 ------------------------------------------------------------------------
 
 ## Conclusion
